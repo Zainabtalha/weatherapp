@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    background-image: url("https://images.pexels.com/photos/186980/pexels-photo-186980.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 90%;
+    max-width: 470px;
+    background: linear-gradient(135deg, #6182e8, #5b548a);
+    margin: 10px auto;
+    border-radius: 30px;
+    padding: 40px 35px;
+    text-align: center;
+    color: aliceblue;
+}
+
+.form-control {
+    border: 0;
+    outline: 0;
+    background-color: rgb(214, 212, 212);
+    margin-left: 10px;
+}
+
+.btn {
+    background-color: rgb(12, 173, 87);
+    color: rgb(255, 255, 255);
+}
